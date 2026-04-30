@@ -274,12 +274,16 @@ Synchronization keeps everything correct.
 
 ### Test 2: Exception Testing
 **What I tested**: Checking for ConcurrentModificationException
+If any error shows while running
 
 **Testing procedure**: 
+I just ran the program and watched
 
 **Results**: 
+No errors showed
 
 **What this proves**: 
+The log is working fine
 
 ---
 
