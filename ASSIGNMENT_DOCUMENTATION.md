@@ -134,6 +134,9 @@ contextSwitchCount is a shared variable so more than one thread can change it at
 **Your Answer**:
 
 [Your answer here - explain your implementation choices]
+Lock is for protecting data.
+Semaphore is for controlling access.
+I used lock for variables and semaphore for CPU.
 
 ---
 
