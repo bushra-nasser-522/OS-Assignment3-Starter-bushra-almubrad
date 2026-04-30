@@ -331,8 +331,10 @@ Synchronization is important when using threads. Shared data can cause wrong res
 Give TWO examples where synchronization is critical:
 
 **Example 1**: 
+Civil services system where many users update their information at the same time
 
 **Example 2**: 
+System where many messages are sent at the same time
 
 ---
 
