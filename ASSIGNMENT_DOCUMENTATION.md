@@ -65,7 +65,7 @@ I ran the code again more than once.
 
 ### Entry 3 - [Apr 29, 2026, 11:50 AM]
 **What I implemented**: 
-I added semaphore.
+I added semaphore. 
 
 **Challenges encountered**: 
 More than one process was running together.
