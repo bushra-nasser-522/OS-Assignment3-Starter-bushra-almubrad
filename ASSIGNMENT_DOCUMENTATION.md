@@ -124,6 +124,8 @@ I checked the final numbers.
 
 [Your answer here - 4-6 sentences with code examples]
 
+contextSwitchCount is a shared variable so more than one thread can change it at the same time and this may give a wrong value. This happens because threads can run contextSwitchCount++ together. Also executionLog is an ArrayList so it is not safe when many threads use executionLog.add(message). This can lead to wrong data or unexpected behavior.
+
 ---
 
 ### Question 2: Locks vs Semaphores
