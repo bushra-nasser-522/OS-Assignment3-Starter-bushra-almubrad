@@ -48,39 +48,54 @@ I ran the code and checked what happens.
 ### Entry 2 - [Apr 29, 2026, 10:50 AM]
 **What I implemented**: 
 I added locks.
+
 **Challenges encountered**: 
 The values were not always correct.
+
 **How I solved it**: 
 I used lock and unlock
+
 **Testing approach**: 
 I ran the code again more than once.
+
 **Time spent**: 
 1 hour
----
-
-### Entry 3 - [, Time]
-**What I implemented**: 
-
-**Challenges encountered**: 
-
-**How I solved it**: 
-
-**Testing approach**: 
-
-**Time spent**: 
 
 ---
 
-### Entry 4 - [Date, Time]
+### Entry 3 - [Apr 29, 2026, 11:50 AM]
 **What I implemented**: 
+I added semaphore.
 
 **Challenges encountered**: 
+More than one process was running together.
 
 **How I solved it**: 
+I used semaphore with 1 permit.
 
 **Testing approach**: 
+I checked that processes run one by one.
 
 **Time spent**: 
+1 hour
+
+---
+
+### Entry 4 - [Apr 29, 2026, 1:20 PM]
+**What I implemented**: 
+I fixed the counters.
+
+**Challenges encountered**: 
+Threads were changing the same values.
+
+**How I solved it**: 
+I used separate locks.
+
+**Testing approach**: 
+I checked the final numbers.
+
+**Time spent**: 
+1 hour
 
 ---
 
