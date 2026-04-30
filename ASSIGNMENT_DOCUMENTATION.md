@@ -146,6 +146,10 @@ I used lock for variables and semaphore for CPU.
 **Your Answer**:
 
 [Your answer here - reference try-finally blocks, lock ordering, etc.]
+Deadlock means nothing runs because threads are waiting.
+I used try-finally to always release locks and avoid getting stuck.
+Also, I didn’t use nested locks to prevent circular waiting.
+This helps the program run without stopping.
 
 ---
 
