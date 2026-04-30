@@ -45,20 +45,20 @@ I ran the code and checked what happens.
 
 ---
 
-### Entry 2 - [Date, Time]
+### Entry 2 - [Apr 29, 2026, 10:50 AM]
 **What I implemented**: 
-
+I added locks.
 **Challenges encountered**: 
-
+The values were not always correct.
 **How I solved it**: 
-
+I used lock and unlock
 **Testing approach**: 
-
+I ran the code again more than once.
 **Time spent**: 
-
+1 hour
 ---
 
-### Entry 3 - [Date, Time]
+### Entry 3 - [, Time]
 **What I implemented**: 
 
 **Challenges encountered**: 
