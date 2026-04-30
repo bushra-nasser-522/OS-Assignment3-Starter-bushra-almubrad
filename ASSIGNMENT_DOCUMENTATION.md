@@ -174,17 +174,24 @@ I used separate locks for each counter so this is fine-grained locking. I chose 
 ### Critical Section #1: Counter Variables
 
 **Which variables**: 
-
+contextSwitchCount, completedProcessCount, totalWaitingTime
 **Why they need protection**: 
-
+because more than one thread can change them
 **Synchronization mechanism used**: 
-
+ReentrantLock
 **Code snippet**:
 ```java
 // Paste your implementation here
+contextSwitchLock.lock();
+try {
+    contextSwitchCount++;
+} finally {
+    contextSwitchLock.unlock(); 
+}
 ```
 
 **Justification**: 
+ the values don’t become wrong
 
 ---
 
