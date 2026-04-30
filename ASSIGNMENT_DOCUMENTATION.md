@@ -198,17 +198,26 @@ try {
 ### Critical Section #2: Execution Log
 
 **What resource**: 
+executionLog
 
 **Why it needs protection**: 
+because ArrayList is not thread safe
 
 **Synchronization mechanism used**: 
-
+ReentrantLock
 **Code snippet**:
 ```java
 // Paste your implementation here
+executionLogLock.lock();
+try {
+    executionLog.add(message);
+} finally {
+    executionLogLock.unlock();
+}
 ```
 
 **Justification**: 
+to avoid errors when threads add data
 
 ---
 
