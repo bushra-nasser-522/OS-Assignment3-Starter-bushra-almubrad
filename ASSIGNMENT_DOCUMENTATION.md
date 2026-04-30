@@ -164,6 +164,9 @@ This helps the program run without stopping.
 
 [Your answer here - explain coarse-grained vs fine-grained locking, independence of counters, concurrency implications. Show understanding of when to use each approach. 5-8 sentences expected.]
 
+I used separate locks for each counter so this is fine-grained locking. I chose this because contextSwitchCount and completedProcessCount and totalWaitingTime are independent variables. Using one lock would be easier but it makes threads wait more. Separate locks allow more than one thread to work at the same time. This gives better performance and better concurrency.
+
+
 ---
 
 ## Part 3: Synchronization Analysis (1 mark)
