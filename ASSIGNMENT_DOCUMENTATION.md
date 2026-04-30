@@ -313,7 +313,7 @@ To see if it still works
 It worked normally
 
 **What I learned**: 
-synchronization helps keep things stable
+synchronization helps keep things stable 
 
 ---
 
