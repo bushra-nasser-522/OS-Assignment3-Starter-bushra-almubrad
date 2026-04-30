@@ -289,23 +289,31 @@ The log is working fine
 
 ### Test 3: Correctness Verification
 **What I tested**: Verifying correct final values (total burst time, context switches, etc.)
+Final values at the end
 
 **Expected values**: 
+All processes finish
 
 **Actual values**: 
+They all finished
 
 **Analysis**: 
+Everything looks correct
 
 ---
 
 ### Test 4: Different Scenarios
 **Scenario tested**: [e.g., different time quantum, more processes, etc.]
+Tried with different number of processes
 
 **Purpose**: 
+To see if it still works
 
 **Results**: 
+It worked normally
 
 **What I learned**: 
+synchronization helps keep things stable
 
 ---
 
@@ -314,6 +322,7 @@ The log is working fine
 ### What I learned about synchronization:
 
 [6-8 sentences about key concepts, challenges, insights]
+Synchronization is important when using threads. Shared data can cause wrong results if it is not protected. Race condition happens when multiple threads access the same data. Locks help protect shared variables and keep values correct. Semaphore is used to control access to resources like CPU. Critical section is the part that needs protection. Releasing locks is important to avoid problems. Synchronization helps the program run correctly.
 
 ---
 
