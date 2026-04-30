@@ -31,16 +31,17 @@
 
 Document your development process with **minimum 3 entries** showing progression:
 
-### Entry 1 - [Date, Time]
+### Entry 1 - [Apr 29, 2026, 10:15 AM]
 **What I implemented**: 
-
+I started the code and added my student ID.
 **Challenges encountered**: 
-
+I didn’t really understand how threads use the same variables.
 **How I solved it**: 
-
+I looked at the shared variables and tried to understand them.
 **Testing approach**: 
-
+I ran the code and checked what happens.
 **Time spent**: 
+30 minutes
 
 ---
 
