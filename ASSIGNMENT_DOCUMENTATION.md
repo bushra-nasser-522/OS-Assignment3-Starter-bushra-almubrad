@@ -348,29 +348,34 @@ Synchronization means taking turns when using the same thing. It makes sure only
 ## Part 6: GitHub Repository Information
 
 **Repository URL**: 
+https://github.com/bushra-nasser-522/OS-Assignment3-Starter-bushra-almubrad.git
 
 **Number of commits**: 
-
+30
 **Commit messages**: 
-1. 
-2. 
-3. 
-4. 
+1. Set my student ID
+2. import
+3. Add lock
+4. Add semaphor 
+ 
 
 ---
 
 ## Summary
 
 **Total time spent on assignment**: 
-
+8
 **Key takeaways**: 
-1. 
-2. 
-3. 
+1. Sync is important
+2. 2. Lock vs semaphore
+3.3. Avoid errors
+ 
 
 **Most challenging aspect**: 
+Understanding threads
 
 **What I'm most proud of**: 
+the program works correctly
 
 ---
 
