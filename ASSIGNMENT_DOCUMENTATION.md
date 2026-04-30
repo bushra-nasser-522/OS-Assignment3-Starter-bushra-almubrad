@@ -224,17 +224,25 @@ to avoid errors when threads add data
 ### Critical Section #3: CPU Semaphore
 
 **Purpose of semaphore**: 
+to control CPU
 
 **Number of permits and why**: 
+1 so only one process runs
 
 **Where implemented**: 
-
+in run()
 **Code snippet**:
 ```java
 // Paste your implementation here
+cpuSemaphore.acquire();
+try {
+} finally {
+    cpuSemaphore.release();
+}
 ```
 
 **Effect on program behavior**: 
+processes run one by one
 
 ---
 
