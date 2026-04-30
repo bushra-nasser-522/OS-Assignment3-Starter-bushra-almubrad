@@ -322,7 +322,7 @@ synchronization helps keep things stable
 ### What I learned about synchronization:
 
 [6-8 sentences about key concepts, challenges, insights]
-Synchronization is important when using threads. Shared data can cause wrong results if it is not protected. Race condition happens when multiple threads access the same data. Locks help protect shared variables and keep values correct. Semaphore is used to control access to resources like CPU. Critical section is the part that needs protection. Releasing locks is important to avoid problems. Synchronization helps the program run correctly.
+Synchronization is important when using threads. Shared data can cause wrong results if it is not protected. Race condition happens when multiple threads access the same data. Locks help protect shared variables and keep values correct. Semaphore is used to control access to resources like CPU. Critical section is the part that needs protection. Releasing locks is important to avoid problems. Synchronization helps the program run correctly. 
 
 ---
 
