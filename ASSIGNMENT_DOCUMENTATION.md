@@ -250,19 +250,25 @@ processes run one by one
 
 ### Test 1: Consistency Check
 **What I tested**: Running program multiple times to verify consistent results
+Running program multiple times to verify consistent results
 
 **Testing procedure**: 
 ```bash
 # Commands used (run the program at least 5 times)
+I ran the program 5 times 
+java SchedulerSimulationSync
 ```
 
 **Results**: 
 (Show that running multiple times produces consistent, correct results)
+The program worked fine every time.
 
 **Why synchronization is necessary**: 
 (Explain what race conditions COULD occur without synchronization, even if you didn't observe them. Explain which shared resources need protection and why.)
+Without synchronization, shared variables like contextSwitchCount and executionLog can be changed at the same time by different threads, and this may give wrong values.
 
 **Conclusion**: 
+Synchronization keeps everything correct.
 
 ---
 
