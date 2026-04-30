@@ -341,6 +341,7 @@ System where many messages are sent at the same time
 ### How I would explain synchronization to others:
 
 [Explain to someone who just finished Assignment 1 - use simple terms and analogies]
+Synchronization means taking turns when using the same thing. It makes sure only one uses it at a time. This helps avoid problems and keeps things working correctly.
 
 ---
 
