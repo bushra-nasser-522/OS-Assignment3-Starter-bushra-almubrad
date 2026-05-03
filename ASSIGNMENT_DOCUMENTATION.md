@@ -367,8 +367,8 @@ https://github.com/bushra-nasser-522/OS-Assignment3-Starter-bushra-almubrad.git
 8
 **Key takeaways**: 
 1. Sync is important
-2. 2. Lock vs semaphore
-3.3. Avoid errors
+2. Lock vs semaphore
+3. Avoid errors
  
 
 **Most challenging aspect**: 
